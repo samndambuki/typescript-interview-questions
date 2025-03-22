@@ -6,9 +6,9 @@
 // }
 
 //for any you can use it without type checking
-let data: any = "Hello";
-console.log(data.toUpperCase());
-data = 10;
+// let data: any = "Hello";
+// console.log(data.toUpperCase());
+// data = 10;
 
-//result in an error
-console.log(data.toUpperCase());
+// //result in an error
+// console.log(data.toUpperCase());

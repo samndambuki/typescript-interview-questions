@@ -2,10 +2,10 @@
 //PIck<T,K> when you need only specific properties
 
 //example
-interface User {
-  name: string;
-  age: number;
-}
+// interface User {
+//   name: string;
+//   age: number;
+// }
 
-const partialUser: Partial<User> = { name: "Alice" };
-const pickedUser: Pick<User, "name"> = { name: "Sam" };
+// const partialUser: Partial<User> = { name: "Alice" };
+// const pickedUser: Pick<User, "name"> = { name: "Sam" };
