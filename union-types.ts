@@ -3,11 +3,11 @@
 //the pipe symbol | is used to define a union type
 
 //we restrict a variable to either a string/number
-let variable: string | number;
-variable = "Hello";
-console.log(variable);
-variable = 100;
-console.log(variable);
+// let variable: string | number;
+// variable = "Hello";
+// console.log(variable);
+// variable = 100;
+// console.log(variable);
 //error
 // variable = true;
 
@@ -19,13 +19,21 @@ console.log(variable);
 
 //more examples
 //union tpyes with functions
-function printId(id: string | number): void {
-  console.log(`Id : ${id}`);
-}
+// function printId(id: string | number): void {
+//   console.log(`Id : ${id}`);
+// }
 
 // printId(123);
-printId("ABC123");
+// printId("ABC123");
 
 //union types with functions
-let values: (string | number)[] = ["Hello", 123, "World"];
-console.log(values);
+// let values: (string | number)[] = ["Hello", 123, "World"];
+// console.log(values);
+
+//union types - allows a variable to have multiple possible types
+// let value: string | number;
+// value = "Hello";
+// console.log(value);
+
+// value = "42";
+// console.log(value);
